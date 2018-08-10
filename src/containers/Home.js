@@ -5,8 +5,8 @@ const Home = () => (
         <Card color="purple" description="Iniciante" />
         <Card color="pinkpurple" description="Intermediário" />
         <Card color="pink" description="Avançado" />
-        <Card color="orange" description="Iniciante" />
-        <Card color="yellow" description="Intermediário" />
+        {/* <Card color="orange" description="Iniciante" />
+        <Card color="yellow" description="Intermediário" /> */}
     </section>
 )
 
