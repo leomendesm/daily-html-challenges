@@ -11,8 +11,8 @@ class App extends Component {
       <BrowserRouter>
       <div className="App">
         <Header />
-        <Route exact path={'/'} component={Home} />
-        <Route path={"/challenge/:dif"} component={Challenges} />
+        <Route exact path={'/daily-html-challenges'} component={Home} />
+        <Route path={"/daily-html-challenges/challenge/:dif"} component={Challenges} />
         <Footer />
       </div>
       </BrowserRouter>
@@ -20,4 +20,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
